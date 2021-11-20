@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Table, Button, Container } from 'react-bootstrap';
+import React from 'react'
+import { Table } from 'react-bootstrap';
 
 
 
@@ -35,8 +35,8 @@ export const Carrito = () => {
                                  
                                   <tfoot>
                                   <td row> 
-                                  <a btn btn-gray>Comprar todo</a> 
-                                  <a btn btn-yellow onclick="">Limpiar</a></td>
+                                  <a>Comprar todo</a> 
+                                  <a  onclick="">Limpiar</a></td>
                                   <td></td>
                                   <td>${pagar}</td>
                                   <td>{cantidad}</td>
