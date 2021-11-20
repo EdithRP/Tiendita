@@ -34,9 +34,7 @@ export const Carrito = () => {
         </tbody>))}
                                  
                                   <tfoot>
-                                  <td row> 
-                                  <a>Comprar todo</a> 
-                                  <a  onclick="">Limpiar</a></td>
+                                  <td>Comprar todo</td>
                                   <td></td>
                                   <td>${pagar}</td>
                                   <td>{cantidad}</td>
